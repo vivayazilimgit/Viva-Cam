@@ -1,0 +1,166 @@
+{
+  "Dikdortgen": {
+    "type": "rectangle",
+    "fields": [
+      {
+        "name": "Genislik",
+        "help": "Parçanın kısa kenar uzunluğunu mm cinsinden girin."
+      },
+      {
+        "name": "Yukseklik",
+        "help": "Parçanın uzun kenar yüksekliğini mm cinsinden girin."
+      },
+      {
+        "name": "Miktar",
+        "help": "Kesilmesi istenen parça adedini girin. Boş bırakılırsa maksimum yerleşim yapılır."
+      }
+    ],
+    "image": "images/dikdortgen.png"
+  },
+  "Kare": {
+    "type": "square",
+    "fields": [
+      {
+        "name": "Kenar Uzunlugu",
+        "help": "Karenin bir kenar uzunluğunu mm cinsinden girin."
+      },
+      {
+        "name": "Miktar",
+        "help": "İstenen adet sayısını girin. Boş bırakılırsa maksimum yerleşim yapılır."
+      }
+    ],
+    "image": "images/kare.png"
+  },
+  "Daire": {
+    "type": "circle",
+    "fields": [
+      {
+        "name": "Cap",
+        "help": "Dairenin çapını mm cinsinden girin."
+      },
+      {
+        "name": "Parca Araligi",
+        "help": "Daireler arasında bırakılacak boşluk miktarını mm olarak belirtin."
+      },
+      {
+        "name": "Miktar",
+        "help": "Kaç adet daire kesileceğini girin. Boş bırakılırsa maksimum sığan kadar yerleştirilir."
+      }
+    ],
+    "image": "images/daire.png"
+  },
+  "Elips": {
+    "type": "ellipse",
+    "fields": [
+      {
+        "name": "Yatay Cap",
+        "help": "Elipsin yatay (geniş) çapını mm olarak girin."
+      },
+      {
+        "name": "Dikey Cap",
+        "help": "Elipsin dikey (yüksek) çapını mm olarak girin."
+      },
+      {
+        "name": "Parca Araligi",
+        "help": "Elipsler arasında bırakılacak boşluğu mm cinsinden girin."
+      },
+      {
+        "name": "Miktar",
+        "help": "İstenen elips adedini girin. Boş bırakılırsa maksimum sığacak şekilde yerleştirilir."
+      }
+    ],
+    "image": "images/elips.png"
+  },
+  "Radius": {
+    "type": "radius",
+    "fields": [
+      {
+        "name": "Genislik",
+        "help": "Parçanın toplam genişliğini mm olarak girin."
+      },
+      {
+        "name": "Yukseklik",
+        "help": "Parçanın toplam yüksekliğini mm olarak girin."
+      },
+      {
+        "name": "Radius Sol Ust",
+        "help": "Sol üst köşedeki radius (yuvarlatma) yarıçapını mm olarak girin."
+      },
+      {
+        "name": "Radius Sag Ust",
+        "help": "Sağ üst köşedeki radius yarıçapını mm olarak girin."
+      },
+      {
+        "name": "Radius Sol Alt",
+        "help": "Sol alt köşedeki radius yarıçapını mm olarak girin."
+      },
+      {
+        "name": "Radius Sag Alt",
+        "help": "Sağ alt köşedeki radius yarıçapını mm olarak girin."
+      },
+      {
+        "name": "Miktar",
+        "help": "Kesilmesi istenen parça adedini girin. Boş bırakılırsa maksimum yerleşim yapılır."
+      }
+    ],
+    "image": "images/radius.png"
+  },
+  "Ucgen": {
+    "type": "triangle",
+    "fields": [
+      {
+        "name": "Taban",
+        "help": "Üçgenin taban uzunluğunu mm cinsinden girin."
+      },
+      {
+        "name": "Yukseklik",
+        "help": "Üçgenin yüksekliğini mm cinsinden girin."
+      },
+      {
+        "name": "Parca Araligi",
+        "help": "Üçgenler arasında bırakılacak boşluğu mm cinsinden girin."
+      },
+      {
+        "name": "Miktar",
+        "help": "İstenen üçgen sayısını girin. Boş bırakılırsa maksimum yerleşim yapılır."
+      }
+    ],
+    "image": "images/ucgen.png"
+  },
+  "Baklava": {
+    "type": "rhombus",
+    "fields": [
+      {
+        "name": "Genislik",
+        "help": "Baklavanın genişliğini (köşeden köşeye yatay ölçü) mm olarak girin."
+      },
+      {
+        "name": "Yukseklik",
+        "help": "Baklavanın yüksekliğini (köşeden köşeye dikey ölçü) mm olarak girin."
+      },
+      {
+        "name": "Miktar",
+        "help": "İstenen parça sayısını girin. Boş bırakılırsa maksimum yerleşim yapılır."
+      }
+    ],
+    "image": "images/baklava.png"
+  },
+  "Altigen": {
+    "type": "hexagon",
+    "fields": [
+      {
+        "name": "Kenar Uzunlugu",
+        "help": "Altıgenin bir kenar uzunluğunu mm olarak girin."
+      },
+      {
+        "name": "Parca Araligi",
+        "help": "Altıgenler arasında bırakılacak boşluk miktarını mm olarak belirtin."
+      },
+      {
+        "name": "Miktar",
+        "help": "Kesilmesi istenen altıgen adedini girin. Boş bırakılırsa maksimum yerleşim yapılır."
+      }
+    ],
+    "image": "images/altigen.png"
+  }
+}

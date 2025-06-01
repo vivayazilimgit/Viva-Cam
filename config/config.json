@@ -1,0 +1,17 @@
+{
+  "cnc_limits": {
+    "max_width_mm": 2560,
+    "max_height_mm": 1690
+  },
+  "default_margin_mm": 10,
+  "default_cut_speed": 80,
+  "default_glass_size": {
+    "width_mm": 2250,
+    "height_mm": 800
+  },
+  "ui_settings": {
+    "background_color": "#F0F2F5",
+    "window_size": "980x760",
+    "min_window_size": [750, 550]
+  }
+}
